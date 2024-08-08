@@ -16,9 +16,7 @@ export default function MyBusiness() {
     navigator.setOptions({
       title: 'My Business',
       headerShown: true,
-     
     });
-    console.log('navyyy');
     user && getUserBusiness();
   }, [user])
   const getUserBusiness = async() =>{
