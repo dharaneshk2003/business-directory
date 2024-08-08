@@ -31,7 +31,8 @@ export default function AddBusiness() {
       title: 'Add Business',
       headerShown: true,
     });
-    getCategorylist();
+    getCategorylist(); console.log('hii');
+    console.log('success');
   }, []);
 
   const onImagePick = async () => {
