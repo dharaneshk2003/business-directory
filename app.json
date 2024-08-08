@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "business-directory",
-    "slug": "business-directory",
+    "slug": "business",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -50,7 +50,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "0581517a-a7bc-49bc-a8f8-15d16c45c7d8"
+        "projectId": "f28d34d0-4b19-4f68-95aa-bfba83c952aa"
       }
     },
     "owner": "kanchustambham"
