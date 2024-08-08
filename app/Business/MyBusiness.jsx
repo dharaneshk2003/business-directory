@@ -18,6 +18,7 @@ export default function MyBusiness() {
       headerShown: true,
      
     });
+    console.log('navyyy');
     user && getUserBusiness();
   }, [user])
   const getUserBusiness = async() =>{
