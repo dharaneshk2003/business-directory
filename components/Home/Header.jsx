@@ -39,7 +39,7 @@ export default function Header() {
             />
             <View>
                <Text style={{ color: '#fff', fontFamily: 'outfit' }}>Welcome,</Text>
-               <Text style={{ fontSize: 19, color: '#fff' }}>{user?.lastName}</Text>
+               <Text style={{ fontSize: 19, color: '#fff',fontFamily:'outfit-bold' }}>{user?.lastName}</Text>
             </View>
          </View>
          {/* searchBar */}
@@ -56,7 +56,7 @@ export default function Header() {
             <TouchableOpacity onPress={()=>fetchSearchInput(searchInput)}>
                <Feather name="search" size={24} color={Colors.PRIMARY}/>
             </TouchableOpacity>
-            <TextInput placeholder='Search...' style={{ fontFamily: 'outfit', fontSize: 16, width: '90%',paddingLeft:10 }}
+            <TextInput placeholder='Search by Category (Ex: Cafe,Tech)...' style={{ fontFamily: 'outfit', fontSize: 16, width: '90%',paddingLeft:10 }}
                cursorColor={Colors.PRIMARY}
                selectionColor='#ced4da'
                value={searchInput}
